@@ -16,7 +16,7 @@
   }
 
   .body-container {
-    font-family: Lora;
+    font-family: 'Lora', serif;
     padding: 0 64px 36px;
     display: flex;
     grid-gap: 48px 16px;
@@ -34,11 +34,11 @@
       }
 
       &-price {
-        font-family: 'Lora';
+        font-family: 'Lora', serif;
         font-size: 12px;
         letter-spacing: 0.36px;
         color: #898989;
-        margin: 4px 0 8px;
+        margin: 0 0 8px;
       }
 
       &-title {
@@ -59,6 +59,10 @@
         line-height: 1.5;
         color: #383838;
       }
+
+      &-size {
+        margin: 2px 0;
+      }
     }
   }
 
@@ -70,8 +74,8 @@
     gap: 2px;
 
     &-label {
-      margin-top: 6px;
-      font-family: 'Sora';
+      margin-top: 2px;
+      font-family: 'Sora', sans-serif;
       font-size: 12px;
       vertical-align: bottom;
       color: #898989;
