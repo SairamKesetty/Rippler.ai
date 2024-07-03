@@ -6,20 +6,21 @@
   .header {
     display: flex;
     align-items: center;
-    padding: 24px 16px;
+    height: 72px;
     justify-content: flex-end;
 
     img {
       width: 21px;
       height: 21.6px;
+      margin-right: 16px;
     }
   }
 
   .body-container {
     font-family: 'Lora', serif;
-    padding: 0 64px 36px;
+    margin: 0 64px 36px;
     display: flex;
-    grid-gap: 48px 16px;
+    gap: 48px 16px;
     justify-content: center;
     flex-flow: wrap;
 
@@ -70,7 +71,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 16px;
+    height: 44px;
     gap: 2px;
 
     &-label {
@@ -79,6 +80,10 @@
       font-size: 12px;
       vertical-align: bottom;
       color: #898989;
+    }
+
+    img {
+      margin-right: 16px;
     }
   }
 }
