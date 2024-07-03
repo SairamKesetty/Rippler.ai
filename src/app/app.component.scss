@@ -8,6 +8,7 @@
   }
 
   .body-container {
+    font-family: Lora;
     padding: 0 64px 36px;
     display: flex;
     grid-gap: 48px 16px;
@@ -27,10 +28,6 @@
       &-price {
         font-family: Lora;
         font-size: 12px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
         letter-spacing: 0.36px;
         color: #898989;
         margin: 4px 0 8px;
@@ -38,14 +35,9 @@
 
       &-title {
         flex-grow: 0;
-        font-family: Lora;
         font-size: 18px;
         font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 1.56;
-        letter-spacing: normal;
-        text-align: left;
         color: #141414;
         &-brand {
           color: #a8917f;
@@ -55,25 +47,26 @@
       &-size, &-rental {
         align-self: stretch;
         flex-grow: 0;
-        font-family: Lora;
         font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
         line-height: 1.5;
-        letter-spacing: normal;
-        text-align: left;
         color: #383838;
       }
     }
   }
 
   .footer {
-    height: 44px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 16px;
     gap: 2px;
+
+    &-label {
+      margin-top: 6px;
+      font-family: Sora;
+      font-size: 12px;
+      vertical-align: bottom;
+      color: #898989;
+    }
   }
 }
